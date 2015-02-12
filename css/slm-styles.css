@@ -1,0 +1,33 @@
+#slm-map img {
+	max-width: none
+}
+
+
+.slm-entry {
+	padding: 10px 0 20px 0;
+	border-bottom: 1px solid #d8d8d8
+}
+
+.slm-label {
+	font-weight: bold
+}
+
+
+
+.slm-search-radius {
+	margin-top: 7px;
+}
+
+.slm-inputs {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.widget .slm-mright  {
+	margin: 7px 0;
+	display: block
+}
+.widget .slm-attribute-terms {
+	display: block
+}
+

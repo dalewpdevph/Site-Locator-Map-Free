@@ -1,0 +1,76 @@
+#slm-location-information label {
+	width: 100px;
+	display: block;
+	float: left;
+	font-weight: bold
+}
+
+#slm-location-information textarea {
+
+	float: left;
+	display: block;
+}
+
+.clear {
+	clear: both
+}
+
+.slm-map-section {
+	clear: both
+}
+
+.slm-clear {
+	clear: both
+}
+
+
+.site_locator_attributes .site_locator_attribute  .chosen-container-multi .chosen-choices input[type=text] {
+	font-size: 14px;
+	display: block;
+	height: 25px;
+	min-width: 200px
+}
+
+.site_locator_attribute .attribute_name label {
+	display: block
+}
+
+.site_locator_attributes .site_locator_attribute_data {
+	width: 100%;
+}
+
+.slma-metabox {
+	border: 1px solid #eee;
+	margin-bottom: 15px;
+}
+
+.slma-metabox-content {
+	padding: 6px;
+}
+
+.slma-metabox h3 {
+	margin: 0;
+	padding: 6px;
+	font-size: 1em!;
+	overflow: hidden;
+	zoom: 1;
+	cursor: move;
+	background-color: #eee;
+}
+
+.slma-metabox h3 button {
+	float: right
+}
+
+.slma-metabox h3 strong {
+	font-weight: normal;
+	line-height: 24px;
+}
+
+#site_locator_attributes_box .slma-metabox.closed  .handlediv:before {
+	content: '\f140';
+}
+
+.slma-metabox-sortable-placeholder {
+		border: 4px dashed #dddddd;
+}

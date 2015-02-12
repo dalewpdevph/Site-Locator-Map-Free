@@ -1,0 +1,218 @@
+/* Options Framework Admin Styles */
+
+#slm_optionsframework {
+    max-width:840px;
+    background:#fff;
+}
+#slm_optionsframework h3 {
+	cursor: default;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #ddd;
+}
+#slm_optionsframework p {
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+#slm_optionsframework .section {
+	padding:10px 10px 0;
+}
+#slm_optionsframework .group {
+	padding-bottom:40px;
+}
+#slm_optionsframework .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+#slm_optionsframework .section .explain {
+	max-width:38%;
+	float: left;
+	font-size: 12px;
+	line-height:16px;
+	color: #777;
+}
+#slm_optionsframework .section-checkbox .controls {
+	width: 98%;
+}
+#slm_optionsframework .section-checkbox .explain {
+	max-width:94%;
+}
+#slm_optionsframework .controls input[type=text] {
+	width:100%;
+}
+#slm_optionsframework .controls select, #slm_optionsframework .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+}
+#slm_optionsframework .section-radio label, #slm_optionsframework .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#slm_optionsframework input.checkbox, #slm_optionsframework input.of-radio {
+	margin: 0 10px 5px 0;
+	float:left;
+	clear:both;
+}
+#slm_optionsframework .section-typography .controls {
+	float:none;
+	width:auto;
+}
+#slm_optionsframework .section-typography .explain {
+	float:none;
+	width:auto;
+}
+#slm_optionsframework .controls .of-typography-size {
+	width:80px;
+	float:left
+}
+#slm_optionsframework .controls .of-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#slm_optionsframework .controls .of-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#slm_optionsframework .controls .of-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#slm_optionsframework .of-background-properties {
+	clear:both;
+	margin-top: 18px;
+}
+#slm_optionsframework .controls .of-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#slm_optionsframework .controls .of-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#slm_optionsframework .controls .of-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#slm_optionsframework .section-background .wp-picker-container {
+	margin-bottom:10px;
+}
+#slm_optionsframework .controls .of-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#slm_optionsframework .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+#slm_optionsframework .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+#slm_optionsframework .controls .of-border-width {
+	width:80px;
+	float:left
+}
+#slm_optionsframework .controls .of-border-style {
+	width:120px;
+	float:left
+}
+#slm_optionsframework .hide {
+	display:none;
+}
+#slm_optionsframework .of-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#slm_optionsframework .mini .controls select, #slm_optionsframework .section .mini .controls {
+	width: 140px;
+}
+#slm_optionsframework .mini .controls input, #slm_optionsframework .mini .controls {
+	min-width:140px;
+	width: 140px;
+}
+#slm_optionsframework .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+
+#slm_optionsframework .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#slm_optionsframework .controls input.upload {
+	width:80%;
+}
+#slm_optionsframework .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#slm_optionsframework .screenshot img {
+	background:#fafafa;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#slm_optionsframework .screenshot .remove-image {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+#slm_optionsframework .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#slm_optionsframework .screenshot .no_image .remove-button {
+	bottom: 0px;
+}
+#slm_optionsframework .reset-button {
+	float:left;
+	cursor:pointer;
+}
+
+/* Bottom Section */
+
+#slm_optionsframework-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ddd;
+	background-color: #f1f1f1;
+}
+#slm_optionsframework .button-primary {
+	float:right;
+}
+#slm_optionsframework .section:after {
+	content: "";
+	display: table;
+}
+#slm_optionsframework .section:after {
+	clear: both;
+}
